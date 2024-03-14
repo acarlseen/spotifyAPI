@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script src="main.js"></script>
+    <title>Spotify Code-Along</title>
+</head>
+<body>
+    <div class="container">
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1" id="fig1" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/swet-shop-boys.jpeg" alt="Swet Shop Boys Birding" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--2" id="fig2" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/inRainbows.jpeg" alt="Radiohead Bodysnatchers" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--3" id="fig3" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/Isaiah-Rashad.webp" alt="Isaiah Rashad From the Garden" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--4" id="fig4" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/macplus.jpeg" alt="" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--5" id="fig5" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/blackfast.jpeg" alt="Black Fast Husk" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--6" id="fig6" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/gojira.jpeg" alt="Gojira Unicorn" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--7" id="fig7" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/khemmis.jpeg" alt="Khemmis Serpentine" class="gallery__img">
+            </figure>
+            <figure class="gallery__item gallery__item--8" id="fig8" onclick="event.stopPropagation(); getSong(this.id, event)">
+                <img src="images/justice.webp" alt="Justice Newjack" class="gallery__img">
+            </figure>
+        </div>
+        <div class="buttoncontain">
+            <button onclick="stopSnippet()">Stop Song</button>
+        </div>
+    </div>
+</body>
+</html>
